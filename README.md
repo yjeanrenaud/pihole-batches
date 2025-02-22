@@ -1,4 +1,4 @@
-# pihole-batches
+# pihole-scripts
 batch and bash scripts to turn on and off remote pi-hole DNS blocking function
 I find it usefull to use the cli to use the [pihole](https://github.com/pi-hole/pi-hole) api, e.g. when using it with [homebridge](https://github.com/homebridge/homebridge). Like that, I can tell siri to turn on the ads when one needs to access a specific service in my network that is usually blocked by pihole-FTL.
 ## requirements
