@@ -1,5 +1,5 @@
 #!/bin/bash
-# basch script to turn on a remote pi.hole dns blocking function
+# bach script to turn on a remote pi.hole dns blocking function
 # needs jq to parse json response (sudo apt update;sudo apt install jq)
 # REQUIRES app password (you may find/set that at https://pi.hole/admin/settings/api > Expert > Configure app password. Your regular password would also work, but I won't reccomend using it)
 # see:
