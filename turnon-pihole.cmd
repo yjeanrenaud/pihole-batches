@@ -3,7 +3,7 @@ REM batch script for Win11 to turn on a remote pi.hole dns blocking function
 REM needs powershell to parse json response
 REM REQUIRES app password (you may find/set that at https://pi.hole/admin/settings/api > Expert > Configure app password. Your regular password would also work, but I won't reccomend using it)
 REM see:
-REM https://github.com/yjeanrenaud/pihole-batches/
+REM https://github.com/yjeanrenaud/pihole-scripts
 
 echo Authenticating at pi.hole and retrieving SID...
 curl -ks -X POST "https://pi.hole:443/api/auth" ^
